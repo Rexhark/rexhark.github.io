@@ -1,0 +1,28 @@
+.carousel-inner{
+    height: 700px;
+}
+
+.padding-tb{
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.kanan{
+    float: right;
+}
+
+.container-skill{
+    padding:0;
+}
+
+.skill{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.skill ul{
+    padding-left: 130px;
+    list-style-position: inside;
+    text-align: justify;
+}
