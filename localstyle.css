@@ -26,3 +26,12 @@
     list-style-position: inside;
     text-align: justify;
 }
+
+.container-round{
+    border-radius: 20px;
+}
+
+p{
+    text-indent: 45px;
+    text-align: justify;
+}
