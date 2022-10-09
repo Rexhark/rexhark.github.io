@@ -2,22 +2,18 @@
     width: 2.5em;
 }
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar {
+    background-color: rgba(255,255,255,0.9);
+}
+
 .container-atas {
-    padding-top: 3.5rem;
+    padding-top: 5.5rem;
 }
-
-.h-navbar {
-    height: 3rem;
-}
-
-.search-bar {
-    height: 2rem;
-}
-
-.search-button {
-    display: inline-flex;
-    align-items: center; 
-  }
 
 .carousel-item img {
     width: 100%;
