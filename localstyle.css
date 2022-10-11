@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 .logo {
     width: 2.5em;
 }
@@ -43,7 +47,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-items: center;
 }
 
 .skill-item .badge {
@@ -63,10 +68,6 @@
     text-align: center;
 }
 
-.container-round {
-    border-radius: 20px;
-}
-
 p{
     text-indent: 45px;
     text-align: justify;
@@ -74,16 +75,16 @@ p{
 
 .gallery {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-column-gap: 20px;
     grid-row-gap: 25px;
     padding: 0px 20px;
+    justify-items: center;
 }
 
 .card {
     width: 15rem;
     border: none;
-    background-color: transparent;
     border-radius: 25px;
 }
 
